@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>REGISTRAION FORM</title>
+	<link rel="stylesheet"type="text/css"href="style.css">
+</head>
+<body>
+	<h1>Registration Form</h1>
+<form >
+	<div class="c1">
+		<label>first name</label>
+		<input type="text" name="fname" maxlength="10" placeholder="Enter first name">
+	</div>
+	<br>
+	<div >
+		<label>last name</label>
+		<input type="text" name="lname" maxlength="10"placeholder="Enter last name">
+	</div>
+	<br>
+	<div >
+		<label>email id</label>
+		<input type="text" name="mail" maxlength="30" placeholder="Enter gmail">
+	</div>
+	<br>
+	<div >
+		<label>studies</label>
+		<select name="studies">
+			<option value="Engineering">Engineering</option>
+			<option value="Medical">Medical</option>
+			<option value="Arts">Arts</option>
+			<option value="Agriculture">Agriculture</option>
+		</select>
+	</div>
+	<br>
+	<div >
+		<label>Dob</label>
+		<input type="date" name="DOB" placeholder="dd-mm-yyyy">
+	</div>
+	<br>
+	<div >
+		<label>gender</label>
+		<select gender ="gen">
+			<option value="male">male</option>
+			<option value="female">female</option>
+			<option value="others">others</option>
+		</select>
+	</div>
+	<br>
+	<div >
+		<label>phone number</label>
+		<input type="number" name="pnumber" maxlength="10" placeholder="enter phone number">
+	</div>
+	<br>
+	<div >
+		<label>address</label>
+		<input type="textarea" name="fname" placeholder="enter your address">
+	</div>
+	<br>
+	<div>
+		<input type="submit"name="submit " value="submit">
+	</div>
+</form>
+</body>
+</html>
